@@ -31,6 +31,15 @@
       "library": "antd"
     },
     {
+      "package": "tdesign",
+      "version": "1.1.14",
+      "urls": [
+        "//cdn.jsdelivr.net/npm/tdesign-react@1.1.14/dist/tdesign.min.js",
+        "//cdn.jsdelivr.net/npm/tdesign-react@1.1.14/dist/tdesign.min.css"
+      ],
+      "library": "TDesign"
+    },
+    {
       "title": "fusion组件库",
       "package": "@alifd/next",
       "version": "1.26.4",
@@ -52,6 +61,16 @@
         "https://alifd.alicdn.com/npm/@alilc/antd-lowcode-materials@1.2.1/build/lowcode/view.js",
         "https://alifd.alicdn.com/npm/@alilc/antd-lowcode-materials@1.2.1/build/lowcode/view.css"
       ]
+    },
+    {
+      "package": "@alilc/tdesign-lowcode-materials",
+      "version": "1.0.0",
+      "library": "TDesignLowcode",
+      "urls": ["http://127.0.0.1:8080/lowcode/view.js", "http://127.0.0.1:8080/lowcode/view.css"],
+      "editUrls": [
+        "http://127.0.0.1:8080/lowcode/view.js",
+        "http://127.0.0.1:8080/lowcode/view.css"
+      ]
     }
   ],
   "components": [
@@ -64,6 +83,17 @@
       "url": "https://alifd.alicdn.com/npm/@alilc/antd-lowcode-materials@1.2.1/build/lowcode/meta.js",
       "urls": {
         "default": "https://alifd.alicdn.com/npm/@alilc/antd-lowcode-materials@1.2.1/build/lowcode/meta.js"
+      }
+    },
+    {
+      "exportName": "AlilcTdesignLowcodeMaterialsMeta",
+      "npm": {
+        "package": "@alilc/tdesign-lowcode-materials",
+        "version": "1.2.1"
+      },
+      "url": "http://127.0.0.1:8080/lowcode/meta.js",
+      "urls": {
+        "default": "http://127.0.0.1:8080/lowcode/meta.js"
       }
     }
   ],
